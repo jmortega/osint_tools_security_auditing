@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Mapa</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+	 <script type='text/javascript' src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+function initMap() {
+            mapOptions = {
+                zoom: 9,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scrollwheel: false
+            };
+
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        drawSchoolCircles(map);
+    }
+
+    function drawSchoolCircles(map) {
+
+	var radius = parseFloat(location.search.split('radius=')[1]);
+
+        var json = (function () { 
+            var json = null; 
+            $.ajax({ 
+                'async': false, 
+                'global': false, 
+                'url': "data.json", 
+                'dataType': "json", 
+                'success': function (data) {
+                     json = data; 
+                 }
+            });
+            return json;
+        })();
+
+        //loop between each of the json elements
+        for (var i = 0, length = json.length; i < length; i++) {
+        
+	    var data = json[i],
+        
+	    latLng = new google.maps.LatLng(data.location.lat, data.location.lon); 
+	
+	        var circle = new google.maps.Circle({
+        	        strokeColor: '#FF0000',
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+      fillColor: '#FF0000',
+      fillOpacity: 0.35,
+                	clickable: false,
+                	map: map,
+                	center: latLng,
+                	radius: 1000
+            	});
+	
+		cityCircle = new google.maps.Circle(circle);
+
+        }
+	map.setCenter(latLng);
+    }
+
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMxNuNUYgaHnhiSV8ldhv2fmv9ffsG2Hc&signed_in=true&callback=initMap"></script>
+  </body>
+</html>
