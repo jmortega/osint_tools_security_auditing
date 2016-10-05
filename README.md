@@ -164,7 +164,9 @@ Get trending topics and streaming for targetTerms = ['python', 'pydata','pycones
 twitter_locations
 -----------------------
 Get information about specific twitter account
+
 Obtain twitter locations from a specific target
+
 It generates twitter_locations.json with the locations detected
 
 
