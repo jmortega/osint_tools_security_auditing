@@ -132,7 +132,7 @@ We can make a search in twitter with a specific tag and get words relationed wit
 
 <img src="https://github.com/jmortega/osint_tools_security_auditing/blob/master/images/pattern_data1.png" alt="pattern_data"/>
 
-<img src="https://github.com/jmortega/osint_tools_security_auditing/blob/master/images/pattern_data.png" alt="pattern_data"/>
+<img src="https://github.com/jmortega/osint_tools_security_auditing/blob/master/images/pattern_data2.png" alt="pattern_data"/>
 
 
 Virus total
