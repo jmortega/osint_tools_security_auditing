@@ -84,7 +84,7 @@ if __name__ == '__main__':
             # Obtain the user object
             userObject = api.get_user(screen_name=parsed_args.target)
      
-            print('Name: ' + userObject.name)
+            print('Name: ' + userObject.name.encode('utf-8'))
             print('Location: ' + userObject.location)
             print('Friends: ' + str(userObject.friends_count))
 
@@ -135,14 +135,13 @@ if __name__ == '__main__':
                         finalDateTimeObj = pytz.utc.localize(j.created_at)
                         if conversionResult:
                                     createdUtcTimezone = pytz.utc.localize(j.created_at)
-                        try:
-                                    userTimezone = pytz.timezone(formalTimezoneName)
-                                    createdUserTimezone = userTimezone.normalize(createdUtcTimezone.astimezone(userTimezone))
-                                    timestamps.append(createdUserTimezone)
-                                    finalDateTimeObj = createdUserTimezone
-                        except Exception:
-                                    finalDateTimeObj = createdUtcTimezone
-                                    timestamps.append(createdUtcTimezone)
+                                    try:
+                                                userTimezone = pytz.timezone(formalTimezoneName)
+                                                createdUserTimezone = userTimezone.normalize(createdUtcTimezone.astimezone(userTimezone))
+                                                timestamps.append(createdUserTimezone)
+                                                finalDateTimeObj = createdUserTimezone
+                                    except Exception as e:
+                                                pass
                         else:
                                     timestamps.append(pytz.utc.localize(j.created_at))
                         if j.in_reply_to_screen_name:

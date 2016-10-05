@@ -19,7 +19,8 @@ def get_emails(domain):
         
         contents = browser.find_all("a",href=re.compile("[-a-zA-Z0-9._]+@[-a-zA-Z0-9_]+.[a-zA-Z0-9_.]+"))
         
-        print(contents)
+        for content in contents:
+            print(content['href'])
     
 if __name__ == "__main__":
         parser = argparse.ArgumentParser(description='gets emails from domain.', prog='get_emails_from_url.py', epilog="", add_help=False)

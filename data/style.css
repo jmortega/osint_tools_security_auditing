@@ -1,0 +1,10 @@
+body { font: 11px sans-serif; }
+a { color: dodgerblue; }
+#graph canvas { }
+#graph .node-label { font-size: 11px; }
+#graph {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}

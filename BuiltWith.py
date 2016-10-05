@@ -1,5 +1,6 @@
 import requests
 import argparse
+import builtwith
 
 # encoding=utf8
 import sys
@@ -14,9 +15,11 @@ class BuiltWith():
         
     def module_run(self, domains):
 
-        title = 'BuiltWith contact'
         for domain in domains:
-            print("\n\nDomain "+domain +"\n")
+            print("\nDomain "+domain +"\n")
+            
+            print(builtwith.parse("http://"+domain))
+            
             payload = {'key': self.key, 'lookup': domain}
             response = requests.get(self.url, params=payload)
             json=response.json()
@@ -24,13 +27,13 @@ class BuiltWith():
                 # extract and add emails to contacts
                 emails = result['Meta']['Emails']
                 if emails is None: emails = []
-                print('Emails\n\n')
+                print('\nEmails\n')
                 for email in emails:
                     print(email)
                 # extract and add names to contacts
                 names = result['Meta']['Names']
                 if names is None: names = []
-                print('Contacts\n\n')
+                print('\nContacts\n')
                 for name in names:
                     fname, mname, lname = self.parse_name(name['Name'])
                     print(fname+" "+mname+" "+lname)
@@ -55,7 +58,7 @@ class BuiltWith():
                     for item in data[host]:
                         print("----------------------------")
                         for tag in item:
-                            print('%s: %s' % (tag.encode('utf-8'), str(item[tag]).encode('utf-8')))
+                            print('%s: %s' % (tag, str(item[tag])))
                             
 
 if __name__ == '__main__':

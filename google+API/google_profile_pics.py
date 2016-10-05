@@ -19,7 +19,7 @@ def obtain_google_pics(target):
 		
 		for result in json_response['items']:
 			name = result['displayName']
-			print(name)
+			print(name.encode('utf-8'))
 			image = result['image']['url'].split('?')[0]
 			f = open('images/'+name+'.jpg','wb+')
 			f.write(requests.get(image).content)

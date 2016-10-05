@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+	<title>Graph</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="canvas.js"></script>
+	<script type="text/javascript" src="graph.js"></script>
+</head>
+<body>
+	<div id="graph" style="width:700px; height:500px;">
+		<script type="text/canvas">
+			function setup(canvas) {
+				canvas.size(700, 500);
+				canvas.fps = 30;
+				g = new Graph(canvas.element, 10.0);
+				var n = {
+					"dooneybourke": {},
+					"emerald green lexington shopper": {fill:"rgba(0,127,255,0.38)"},
+					"so": {},
+					"many programmers": {fill:"rgba(0,127,255,0.38)"},
+					"cloud azure documentdb sdk updates": {},
+					"3 support https://t.co/hn1vfcfwez": {fill:"rgba(0,127,255,0.38)"},
+					"azure documentdb sdk updates": {},
+					"3 support": {fill:"rgba(0,127,255,0.38)"},
+					"monty": {fill:"rgba(0,127,255,0.00)"},
+					"theme": {fill:"rgba(0,127,255,0.38)"},
+					"senior": {},
+					"developer": {fill:"rgba(0,127,255,0.75)"},
+					"fullstack": {fill:"rgba(0,127,255,0.00)"},
+					"i ’ m": {},
+					"a guy": {fill:"rgba(0,127,255,0.38)"},
+					"the": {fill:"rgba(0,127,255,0.00)"},
+					"crowd": {fill:"rgba(0,127,255,0.38)"},
+					"details": {fill:"rgba(0,127,255,0.00)"},
+					"her favorite monty skit": {fill:"rgba(0,127,255,0.38)"},
+					"top": {fill:"rgba(0,127,255,0.00)"},
+					"influencers": {fill:"rgba(0,127,255,0.38)"},
+					"cutout": {fill:"rgba(0,127,255,0.00)"},
+					"and leather": {fill:"rgba(0,127,255,0.38)"},
+					"a": {},
+					"library": {fill:"rgba(0,127,255,0.38)"},
+					"small": {fill:"rgba(0,127,255,0.00)"},
+					"improvements": {fill:"rgba(0,127,255,0.38)"},
+					"documentdb": {fill:"rgba(0,127,255,0.00)"},
+					"sdk": {fill:"rgba(0,127,255,0.38)"},
+					"our": {fill:"rgba(0,127,255,0.00)"},
+					"athletes": {fill:"rgba(0,127,255,0.38)"},
+					"the randy neuringer company": {},
+					"a sr systems engineer": {fill:"rgba(0,127,255,0.38)"},
+					"original": {},
+					"website": {fill:"rgba(0,127,255,0.38)"},
+					"qgis": {fill:"rgba(0,127,255,0.00)"},
+					"composer export problem": {fill:"rgba(0,127,255,0.38)"},
+					"miller": {},
+					"duraflex harness": {fill:"rgba(0,127,255,0.38)"},
+					"they": {fill:"rgba(0,127,255,0.00)"},
+					"a monty skit!!😅😅": {fill:"rgba(0,127,255,0.38)"},
+					"my": {fill:"rgba(0,127,255,0.00)"},
+					"course @ saisoft https://t.co/ot8zvovf2m": {fill:"rgba(0,127,255,0.38)"},
+					"handbag": {fill:"rgba(0,127,255,0.00)"},
+					"jumbo classic double flap ruthenium… https://t.co/012zk2ybjv": {fill:"rgba(0,127,255,0.38)"},
+					"this": {fill:"rgba(0,127,255,0.00)"},
+					"weeks code": {fill:"rgba(0,127,255,0.38)"},
+					"u": {},
+					"m8": {fill:"rgba(0,127,255,0.38)"},
+					"essential": {fill:"rgba(0,127,255,0.00)"},
+					"code optimization tips": {fill:"rgba(0,127,255,0.38)"}
+				};
+				var e = [
+					["dooneybourke", "emerald green lexington shopper", {stroke:"rgba(0,0,0,0.75)"}],
+					["so", "many programmers", {stroke:"rgba(0,0,0,0.75)"}],
+					["cloud azure documentdb sdk updates", "3 support https://t.co/hn1vfcfwez", {stroke:"rgba(0,0,0,0.75)"}],
+					["azure documentdb sdk updates", "3 support", {stroke:"rgba(0,0,0,0.75)"}],
+					["monty", "theme", {stroke:"rgba(0,0,0,0.75)"}],
+					["senior", "developer", {stroke:"rgba(0,0,0,0.75)"}],
+					["fullstack", "developer", {stroke:"rgba(0,0,0,0.75)"}],
+					["i ’ m", "a guy", {stroke:"rgba(0,0,0,0.75)"}],
+					["the", "crowd", {stroke:"rgba(0,0,0,0.75)"}],
+					["details", "her favorite monty skit", {stroke:"rgba(0,0,0,0.75)"}],
+					["top", "influencers", {stroke:"rgba(0,0,0,0.75)"}],
+					["cutout", "and leather", {stroke:"rgba(0,0,0,0.75)"}],
+					["a", "library", {stroke:"rgba(0,0,0,0.75)"}],
+					["small", "improvements", {stroke:"rgba(0,0,0,0.75)"}],
+					["documentdb", "sdk", {stroke:"rgba(0,0,0,0.75)"}],
+					["our", "athletes", {stroke:"rgba(0,0,0,0.75)"}],
+					["the randy neuringer company", "a sr systems engineer", {stroke:"rgba(0,0,0,0.75)"}],
+					["original", "website", {stroke:"rgba(0,0,0,0.75)"}],
+					["qgis", "composer export problem", {stroke:"rgba(0,0,0,0.75)"}],
+					["miller", "duraflex harness", {stroke:"rgba(0,0,0,0.75)"}],
+					["they", "a monty skit!!😅😅", {stroke:"rgba(0,0,0,0.75)"}],
+					["my", "course @ saisoft https://t.co/ot8zvovf2m", {stroke:"rgba(0,0,0,0.75)"}],
+					["handbag", "jumbo classic double flap ruthenium… https://t.co/012zk2ybjv", {stroke:"rgba(0,0,0,0.75)"}],
+					["this", "weeks code", {stroke:"rgba(0,0,0,0.75)"}],
+					["u", "m8", {stroke:"rgba(0,0,0,0.75)"}],
+					["essential", "code optimization tips", {stroke:"rgba(0,0,0,0.75)"}]
+				];
+				for (var id in n) {
+					g.addNode(id, n[id]);
+				}
+				for (var i=0; i < e.length; i++) {
+					var n1 = g.nodeset[e[i][0]];
+					var n2 = g.nodeset[e[i][1]];
+					g.addEdge(n1, n2, e[i][2]);
+				}
+				g.layout.k = 4.0; // Force constant (= edge length).
+				g.layout.force = 0.01; // Repulsive strength.
+				g.layout.repulsion = 50; // Repulsive radius.
+				g.eigenvectorCentrality();
+				g.betweennessCentrality();
+				g.degreeCentrality();
+				// Apply Node.weight to Node.radius.
+				for (var i=0; i < g.nodes.length; i++) {
+					var n = g.nodes[i];
+					n.radius = n.radius + n.radius * n.weight;
+				}
+				// Apply Edge.length (leaves get shorter edges).
+				for (var i=0; i < g.nodes.length; i++) {
+					var e = g.nodes[i].edges();
+					if (e.length == 1) {
+						e[0].length *= 0.2;
+					}
+				}
+			}
+			function draw(canvas) {
+				if (g.layout.iterations <= 500) {
+					canvas.clear();
+					//shadow();
+					stroke(0);
+					fill(0,0);
+					g.update(2);
+					g.draw(0.6, false);
+				}
+				g.drag(canvas.mouse);
+			}
+		</script>
+	</div>
+</body>
+</html>

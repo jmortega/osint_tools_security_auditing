@@ -1,0 +1,6 @@
+pytagcloud == 0.3.5
+pytz == 2014.7
+requests == 2.11.1
+requests_oauthlib == 0.6.2
+tweepy == 3.5.0
+python_twitter == 3.1

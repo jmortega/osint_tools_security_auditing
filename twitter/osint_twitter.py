@@ -153,7 +153,7 @@ try:
    text = "%s" % " ".join(words)	
       
    counts = get_tag_counts(text)
-   tags = make_tags(counts, maxsize=90)
+   tags = make_tags(counts, maxsize=60)
    create_tag_image(tags, 'twitter_tags.png', size=(1600, 1200))   
 
    print('\n[*] Initializing streamer:')
