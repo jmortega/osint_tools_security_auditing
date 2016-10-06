@@ -9,11 +9,16 @@ import logging
 import requests
 import re
 
-def get_fullcontact(email):
+def get_fullcontact(email,json):
        api_key = 'a82ad9009f6b1b1'
        base_url = 'https://api.fullcontact.com/v2/person.json'
        payload = {'email':email, 'apiKey':api_key}
        resp = requests.get(base_url, params=payload)
+       
+       if json is not None:
+	      f = open(json,'w')
+	      f.write(resp.text.encode('ascii', 'ignore'))              
+
        if resp.status_code == 200:
               # parse contact information
               if 'contactInfo' in resp.json():
@@ -63,7 +68,7 @@ def get_fullcontact(email):
 if __name__ == "__main__":
        parser = argparse.ArgumentParser(description='Makes a search on fullcontact api.', prog='checkFullContactAPI.py', epilog="", add_help=False)
        # Adding the main options
-       general = parser.add_mutually_exclusive_group(required=True)
-       general.add_argument('-e', '--email', metavar='<email>', action='store', help='query to be resolved by fullcontact.com.')        
+       parser.add_argument('-e', '--email', metavar='<email>', action='store', help='query to be resolved by fullcontact.com.')
+       parser.add_argument('-j', '--json', metavar='<json>', action='store', help='save results in json file.',required=False)  
        args = parser.parse_args()        
-       get_fullcontact(args.email)
+       get_fullcontact(args.email,args.json)

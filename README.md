@@ -104,6 +104,17 @@ in this example we are obtaining social networks profiles from guido van rosum.
 
 <img src="https://github.com/jmortega/osint_tools_security_auditing/blob/master/images/full_contact.png" alt="full_contact"/>
 
+Check full Contact By Domain
+================================
+
+<img src="https://github.com/jmortega/osint_tools_security_auditing/blob/master/images/full_contact_by_domain.png" alt="full_contact_by_domain"/>
+
+
+Check full Contact By Place
+================================
+
+<img src="https://github.com/jmortega/osint_tools_security_auditing/blob/master/images/full_contact_by_place.png" alt="full_contact_by_place"/>
+
 
 Check IP details
 ================================
