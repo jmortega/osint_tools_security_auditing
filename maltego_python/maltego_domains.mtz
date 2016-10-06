@@ -1,0 +1,561 @@
+<MaltegoMessage>
+<MaltegoTransformResponseMessage>
+<Entities>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/psf-landing/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://docs.python.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://pypi.python.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/jobs/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://plus.google.com/+Python</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.facebook.com/pythonlang?fref=ts</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://twitter.com/ThePSF</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/irc/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/accounts/login/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/accounts/signup/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/accounts/login/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/apps/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/quotes/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/gettingstarted/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/help/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://brochure.getpython.info/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/source/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/windows/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/mac-osx/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/download/other/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://docs.python.org/3/license.html</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/download/alternatives</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/doc/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/doc/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/doc/av</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/BeginnersGuide</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://docs.python.org/devguide/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://docs.python.org/faq/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://wiki.python.org/moin/Languages</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://python.org/dev/peps/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/PythonBooks</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/diversity/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/irc/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/lists/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/workshops/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/sigs/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/logos/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/merchandise/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/awards</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#arts</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#business</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#education</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#engineering</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#government</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#scientific</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#software-development</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/blogs/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/blogs/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://planetpython.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://pyfound.blogspot.com/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://pycon.blogspot.com/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-user-group/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events/past/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-user-group/past/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/shell/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org//docs.python.org/3/tutorial/controlflow.html#defining-functions</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org//docs.python.org/3/tutorial/introduction.html#lists</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org//docs.python.org/3/tutorial/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org//docs.python.org/3/tutorial/controlflow.html</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/doc/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/gettingstarted/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/Python2orPython3</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/release/python-352/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/release/python-2712/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://docs.python.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org//jobs.python.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://blog.python.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://feedproxy.google.com/~r/PythonInsider/~3/ZLTGxjKhYp0/python-core-development-sprint-2016-36.html</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://feedproxy.google.com/~r/PythonInsider/~3/6vXS6z9YHg0/python-360-beta-1-is-now-available.html</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://feedproxy.google.com/~r/PythonInsider/~3/ukG8L0FEq2Q/python-360-alpha-4-preview-release-is.html</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://feedproxy.google.com/~r/PythonInsider/~3/6i6vUY_x_SE/python-360-alpha-3-preview-release-is.html</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://feedproxy.google.com/~r/PythonInsider/~3/1zUlkKxW27U/python-2712-released.html</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/calendars/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events/450/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events/461/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events/462/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events/418/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events/456/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/success-stories/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/success-stories/industrial-light-magic-runs-python/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/success-stories/industrial-light-magic-runs-python/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/apps</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.djangoproject.com/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.pylonsproject.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://bottlepy.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://tornadoweb.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://flask.pocoo.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.web2py.com/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.wxpython.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://wiki.python.org/moin/TkInter</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.pygtk.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.gnome.org/Projects/PyGObject</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.riverbankcomputing.co.uk/software/pyqt/intro</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.scipy.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://pandas.pydata.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://ipython.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://buildbot.net/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://trac.edgewall.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://roundup.sourceforge.net/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.ansible.com</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.saltstack.com</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://www.openstack.org</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/dev/peps/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/dev/peps/peps.rss</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/psf/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/psf/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/users/membership/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/psf/donations/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/apps/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/quotes/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/gettingstarted/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/help/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://brochure.getpython.info/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/source/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/windows/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/downloads/mac-osx/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/download/other/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://docs.python.org/3/license.html</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/download/alternatives</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/doc/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/doc/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/doc/av</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/BeginnersGuide</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://docs.python.org/devguide/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://docs.python.org/faq/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://wiki.python.org/moin/Languages</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://python.org/dev/peps/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/PythonBooks</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/diversity/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/irc/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/lists/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/workshops/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/sigs/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/logos/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/merchandise/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/awards</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#arts</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#business</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#education</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#engineering</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#government</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#scientific</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/success/#software-development</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/blogs/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/blogs/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://planetpython.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://pyfound.blogspot.com/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://pycon.blogspot.com/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-user-group/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-events/past/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/events/python-user-group/past/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/dev/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://docs.python.org/devguide/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://bugs.python.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://mail.python.org/mailman/listinfo/python-dev</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://pythonmentors.com/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/help/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/community/diversity/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://github.com/python/pythondotorg/issues</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>https://status.python.org/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/psf-landing/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/about/legal/</Value>
+</Entity>
+<Entity Type="maltego.Domain">
+<Value>http://www.python.org/privacy/</Value>
+</Entity>
+</Entities>
+</MaltegoTransformResponseMessage>
+</MaltegoMessage>

@@ -9,14 +9,30 @@ def maltego_emails(domain):
                     "{|}~-]+)*(@|\sat\s)(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(\.|"
                     "\sdot\s))+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)"))
 
+	f = open('maltego_emails.mtz','w')
+	f.write('<MaltegoMessage>\n')
+	f.write('<MaltegoTransformResponseMessage>\n')
+	f.write('<Entities>\n')
+
 	print("<MaltegoMessage>")
 	print("<MaltegoTransformResponseMessage>")
 	print("	<Entities>")
 	emails = re.findall(regex, response)
 	for email in emails:
+		
+		f.write('<Entity Type=\"maltego.EmailAddress\">\n')
+		f.write('<Value>'+str(email[0])+'</Value>\n')
+		f.write('</Entity>\n')
+		
 		print("<Entity Type=\"maltego.EmailAddress\">")
 		print("<Value>"+str(email[0])+"</Value>")
 		print("</Entity>")
+		
+		
+	f.write('</Entities>\n')
+	f.write('</MaltegoTransformResponseMessage>\n')
+	f.write('</MaltegoMessage>\n')
+	
 	print("</Entities>")
 	print("</MaltegoTransformResponseMessage>")
 	print("</MaltegoMessage>")
